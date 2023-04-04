@@ -1,14 +1,14 @@
 h1 {
   font-family: 'Nunito', sans-serif;
-  color: #AC3B61;
+  color: #b21807;
 }
 body {
   margin: 0;
   font-family: 'Actor', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #EEE2DC;
-  color: #123C69
+  background-color: #efeacb;
+  color: #163832;
 }
 
 code {
@@ -31,7 +31,7 @@ code {
 }
 
 .button {
-    background-color: #EDC7B7;
+    background-color: #e3cb9c;
     border: none;
     width: 5rem;
     height: 5rem;
@@ -40,7 +40,7 @@ code {
 }
 
 .button:hover {
-    background-color: #e8a386;
+    background-color: #d5a55d;
     transform: scale(1.6);
     transition: 0.5s;
     cursor: pointer;
