@@ -1,0 +1,47 @@
+h1 {
+  font-family: 'Nunito', sans-serif;
+  color: #AC3B61;
+}
+body {
+  margin: 0;
+  font-family: 'Actor', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #EEE2DC;
+  color: #123C69
+}
+
+code {
+  font-family: 'Actor', sans-serif;
+}
+
+.content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.button {
+    background-color: #EDC7B7;
+    border: none;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 80%;
+    font-family: Actor;
+}
+
+.button:hover {
+    background-color: #e8a386;
+    transform: scale(1.6);
+    transition: 0.5s;
+    cursor: pointer;
+}
