@@ -7,20 +7,23 @@ body {
   font-family: 'Actor', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #efeacb;
-  color: #163832;
+  background-color: #EEE2DC;
+  color: #123C69;
 }
-
+p {
+  font-size:large;
+}
 code {
   font-family: 'Actor', sans-serif;
 }
 
 .content {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
+    text-align: left;
 }
 
 .buttons {
@@ -31,17 +34,44 @@ code {
 }
 
 .button {
-    background-color: #e3cb9c;
     border: none;
-    width: 5rem;
+    width: 10rem;
     height: 5rem;
-    border-radius: 80%;
+    background-color: #EEE2DC;
     font-family: Actor;
+    font-size:1.5rem;
+    color: #123C69;
+    margin: 1rem;
 }
 
 .button:hover {
-    background-color: #d5a55d;
-    transform: scale(1.6);
     transition: 0.5s;
     cursor: pointer;
+    font-size:2rem;
+    background-color: #EEE2DC;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-size: 1.5rem;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }

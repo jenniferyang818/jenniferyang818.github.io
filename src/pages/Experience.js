@@ -1,34 +1,45 @@
+import Header from "../components/Header.js";
+import "./Experience.css";
+
+
 function Experience() {
     return (
       <div className="body">
-        <h1>EXPERIENCE</h1>
+        <Header></Header>
         <div className="exp">
-          <h2>Amazon</h2>
-          <p>May 2022 - Aug 2022</p>
-          <h3>Software Development Engineering Intern</h3>
-          <p></p>
-        </div>
-        <div className="exp">
-          <h2>Liberty Mutual Insurance</h2>
-          <p>May 2021 - Aug 2021</p>
-          <h3>Techstart Software Engineering Intern</h3>
-          <p>At Liberty Mutual, I worked on a product called AMR3 (Auto Model Rebuild 3) that was
-            modernizing the existing internal tooling employees used to quote cars for auto insurance.
-            I used C# (.net) and Javascript to add new functionality to AMR3's Policy Service and Change Tool
-            to support policy overrides. 
-          </p>
-        </div>
-        <div className="exp">
-          <h2>Association of Women in EE&CS @ UC Berkeley</h2>
-          <p>Jan 2020 - Dec 2022</p>
-          <h3>Advisor, President, Internal Vice President, Industrial Relations</h3>
-          <p>What I did</p>
-        </div>
-        <div className="exp">
-          <h2>Innovative Design @ UC Berkeley</h2>
-          <p>Jan 2022 - May 2022</p>
-          <h3>Web Designer</h3>
-          <p>What I did</p>
+          <h1>EXPERIENCE</h1>
+          <div id="amazon">
+            {/* TODO: same line formatting like resume */}
+            <div className="role"><h2>Software Development Engineering Intern, Amazon</h2></div>
+            <div className="date"><h3>May 2022 - August 2022</h3></div>
+            <div className="tldr"><p>At Amazon, I worked in AWS Cryptography, where I developed an Audit Queue system for locally saving 
+              cryptographic certificates to prevent irrecoverable certificate loss due to user failure. I also created a background worker for automating
+              and scheduling Dynamo database entry updates, to improve recovery after database failures. Both components were created in Java.</p></div>
+          </div>
+
+          <div id="lm">
+            <div className="role"><h2>Techstart Software Engineering Intern, Liberty Mutual Insurance</h2></div>
+            <div className="date"><h3>May 2021 - August 2021</h3></div>
+            <div className="tldr"><p>At Liberty Mutual, I worked in the Products and Underwriting department. My team was developing AMR3 (Auto Model 
+              Rebuild 3), a project intending to revamp the existing internal tool used by employees to issue car insurance policies. I worked on a new
+              functionality that allowed employees to manually override information autofilled by a third party car quoting service. </p></div>
+          </div>
+
+          <div id="awe">
+            <div className="role"><h2>Advisor, Co-President, Internal Vice President, Industrial Relations, Association of Women in EE&CS</h2></div>
+            <div className="date"><h3>August 2019 - December 2022</h3></div>
+            <div className="tldr"><p>AWE was a huge part of my college experience and I served multiple officer roles while in the club. As industrial relations,
+              I served as a point of contact for companies, where I hosted weekly events and raised over $13,000 for the club. As Internal Vice President and Co-President, 
+              I focused on the club's internal community and fostering a welcoming environment for members, amidst a tumultuous semester of online
+              Zoom interactions and an equally as daunting transition into a post-pandemic semester back on campus. </p></div>
+          </div>
+
+          <div id="innod">
+            <div className="role"><h2>Web Developer, Innovative Design</h2></div>
+            <div className="date"><h3>May 2022 - August 2022</h3></div>
+            <div className="tldr"><p>I was a part of the Web Gold design team in Innovative Design. We were tasked with redesigning the website for a student organization
+              on campus (Berkeley Legends), from concept redesign in Figma to implementation. The website is now <a href="https://legends.berkeley.edu/" target="_blank">live</a>!</p></div>
+          </div>
         </div>
       </div>
     );

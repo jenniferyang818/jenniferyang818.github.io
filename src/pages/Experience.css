@@ -1,0 +1,22 @@
+body {
+    margin:5rem;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    color: #b21807;
+    text-align: center;
+  }
+
+.exp {
+    text-align: left;
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%;  */
+    /* transform: translate(-50%, -50%); */
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+}
