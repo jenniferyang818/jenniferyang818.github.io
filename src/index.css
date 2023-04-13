@@ -1,15 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Actor&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Nunito&family=Source+Serif+Pro&display=swap');
 
 h1 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Actor', sans-serif;
+  color: #b21807;
+  text-align: center;
+  font-size:3rem;
+  margin-bottom:2rem;
+}
+h2, h3 {
+  font-family: 'Actor', sans-serif; 
+}
+p {
+  margin: 0;
+  font-family: 'Source Serif Pro', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
 }
 body {
+  background-color: #EEE2DC;
   margin: 0;
   font-family: 'Actor', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #EEE2DC;
+  color: #123C69;
 }
 
 code {
