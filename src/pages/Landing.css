@@ -9,7 +9,7 @@
 }
 
 .intro {
-  width: 70%;
+  width: 80%;
   margin: auto;
   top: 10%;
   margin-top: 30%;
@@ -37,7 +37,8 @@
 }
 
 .header-button:hover {
-  transition: 0.5s;
+  font-weight: bold;
+  transition: 0.3s;
   border: none;
   cursor: pointer;
   background-color: #EEE2DC;

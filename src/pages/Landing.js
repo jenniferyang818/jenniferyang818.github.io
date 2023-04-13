@@ -39,21 +39,21 @@ function Home() {
     <div className="home">
       <div className="header">
           <div>
-            <button className="header-button" onClick={handleHomeScroll}><span>Home</span></button>
+            <button className="header-button" onClick={handleHomeScroll}><span>🏠 Home</span></button>
           </div>
           <div>
-            <button className="header-button" onClick={handleExpScroll}><span>Experience</span></button>
+            <button className="header-button" onClick={handleExpScroll}><span>🗂 Experience</span></button>
           </div>
           <div>
-            <button className="header-button" onClick={handleProjScroll}><span>Work</span></button>
+            <button className="header-button" onClick={handleProjScroll}><span>💻 Work</span></button>
           </div>
           <div>
-            <button className="header-button" onClick={handleAbtScroll}><span>About Me</span></button>
+            <button className="header-button" onClick={handleAbtScroll}><span>👩‍💻 About Me</span></button>
           </div>
         </div>
         <div className="intro">
           <h1>JENNIFER YANG</h1>
-          <p>Hi! I'm Jennifer. I'm a(n)...
+          <p>👋 Hi! I'm Jennifer. I'm a(n)...
             <li><b>UC Berkeley grad</b> w/ a Computer Science degree and minor in Data Science</li>
             <li>incoming <b>software engineer</b> at Amazon in AWS Cryptography</li> 
             <li>former intern at <b>Amazon</b> (Summer 2022) & <b>Liberty Mutual</b> (Summer 2021)</li>
