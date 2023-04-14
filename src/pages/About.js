@@ -4,7 +4,7 @@ function About() {
     return (
       <div className="body">
         <div className="about">
-          <h1>ABOUT</h1>
+          <h1>ABOUT ME</h1>
           <div id="about">
             <p>👋 Hi! I'm Jennifer Yang, a recent UC Berkeley grad (go bears!) and incoming Software Engineer at Amazon in May. I was formerly an intern at Amazon in AWS Cryptography 
               and Liberty Mutual in the Products and Underwriting department. In my free time, I enjoy perusing interior design YouTube channels, falling off walls at the 

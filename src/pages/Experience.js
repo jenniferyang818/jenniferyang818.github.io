@@ -21,14 +21,14 @@ function Experience() {
             <div className="role"><h2>💻 Techstart Software Engineering Intern, Liberty Mutual Insurance</h2></div>
             <div className="date"><h3>May 2021 - August 2021</h3></div>
             <div className="tldr"><p>My team was developing AMR3 (Auto Model 
-              Rebuild 3), a project intending to revamp the existing internal tool used by employees to issue car insurance policies. I worked on a new
+              Rebuild 3), a project intending to revamp the existing tool used by employees to issue car insurance policies. I worked on a new
               functionality that allowed employees to manually override information autofilled by a third party car quoting service. </p></div>
           </div>
 
           <div id="awe">
             <div className="role"><h2>👩‍💻 Advisor, Co-President, Internal Vice President, Industrial Relations, Association of Women in EE&CS</h2></div>
             <div className="date"><h3>August 2019 - December 2022</h3></div>
-            <div className="tldr"><p>AWE was a huge part of my college experience and I served multiple officer roles while in the club. As industrial relations,
+            <div className="tldr"><p><a href="https://awe.berkeley.edu/" target="_blank">AWE</a> was a huge part of my college experience and I served multiple officer roles while in the club. As industrial relations,
               I served as a point of contact for company events and raised over $13,000 for the club. As Internal Vice President and Co-President, 
               I focused on fostering a welcoming environment within the club, amidst a tumultuous semester of online
               Zoom interactions and an equally as daunting transition into a post-pandemic semester back on campus. </p></div>

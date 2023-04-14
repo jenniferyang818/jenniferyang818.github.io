@@ -20,13 +20,12 @@ p {
   font-size: 20px;
 }
 body {
-  background-color: #EEE2DC;
+  background-color: #E3E7F1;
   margin: 0;
   font-family: 'Actor', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #EEE2DC;
-  color: #123C69;
+  color: #1D3557;
 }
 
 code {
